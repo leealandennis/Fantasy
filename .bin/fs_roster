@@ -1,3 +1,0 @@
-#!/bin/bash
-
-docker run -ti --rm -v $PWD:/fantasy fs_python python scripts/roster.py

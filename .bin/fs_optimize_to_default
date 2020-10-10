@@ -1,0 +1,10 @@
+#!/bin/bash
+
+for f in roster*.csv
+do
+  if [[ "$f" == *"optimized.csv" ]]; then
+      website=$(echo "$f" | cut -d'_' -f 2)
+      newname=$(echo "roster_${website}.csv")
+      mv "$f" "$newname"
+  fi
+done

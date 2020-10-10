@@ -6,10 +6,10 @@ authors = ["Lee Dennis"]
 
 [tool.poetry.dependencies]
 python = "3.9"
-beautifulsoup4 = "4.9.*"
-lxml = "4.5.*"
 requests = "2.24.*"
 fuzzywuzzy = "0.18.*"
+yapf = "0.30.*"
+python-Levenshtein = "0.12.*"
 
 [tool.poetry.dev-dependencies]
 
